@@ -1,0 +1,97 @@
+.storePage__headerBanner {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1967d2;
+    color: white;
+}
+
+.BannerTitle > a {
+    color: white;
+}
+
+.storePage__headerLogo {
+    width: 20px;
+
+}
+
+.storePage__headerOptions {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.storePage__headerOptionsLeft,
+.storePage__headerOptionsRight {
+    display: flex;
+    align-items: center;
+    margin: 0 8px;
+}
+
+.storePage__headerOption > a{
+    text-decoration: none;
+    margin: 6px;
+    color: grey;
+}
+
+.storePage__headerOption {
+    margin: 0 8px;
+    color: grey;
+}
+
+.storePage__headerOption:hover {
+    color: #1967d2;
+}
+
+.storePage__bodyHero {
+    background: linear-gradient(rgb(120, 219, 255),rgb(254, 201, 210));
+    height: 70vh;
+    display: flex;
+}
+
+.bodyHeroLeftTitle {
+    font-size: 64px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.756)
+}
+.bodyHeroLeftSubTitle {
+    line-height: 1.5;
+    color:rgba(0, 0, 0, 0.756);
+    margin: 8px 0;
+}
+.storePage__bodyHeroLeft {
+    padding: 128px;
+}
+
+.bodyHeroButtons {
+    margin: 16px 0;
+    display: flex;
+}
+
+.bodyHeroButton {
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.756);
+    display: flex;
+    align-items: center;
+}
+
+.outline {
+    border: 2px solid rgba(0, 0, 0, 0.756);
+    border-radius: 5px;
+}
+.storePage__bodyHeroRight,
+.storePage__bodyHeroLeft {
+    width: 50%;
+}
+.bodyHeroRightImage {
+    width: 100%;
+}
+
+
