@@ -30,7 +30,7 @@ function Search({ hideButtons = false }) {
         <div className="search__input">
             <SearchIcon className="search__inputIcon"></SearchIcon>
             <input value={input} onChange={e => setInput(e.target.value)}/>
-            <MicIcon></MicIcon>
+            <MicIcon className="search__inputIcon"></MicIcon>
         </div>
         {!hideButtons ? (
                 <div className="search__buttons">

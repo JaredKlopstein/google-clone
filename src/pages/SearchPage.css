@@ -11,8 +11,8 @@
 
 .searchPage__logo {
     object-fit: contain;
-    height: 50px;
-    margin-right: 8px;
+    height: 40px;
+    margin: 8px;
 }
 
 .searchPage__headerBody > .search > .search__input {
@@ -71,6 +71,10 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 100px;
+}
+
+.searchPage__resultShortLink {
+    color: black;
 }
 
 .searchPage__resultTitle {

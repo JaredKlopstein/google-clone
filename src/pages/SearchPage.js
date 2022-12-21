@@ -34,7 +34,7 @@ function SearchPage() {
         </Link>
 
         <div className="searchPage__headerBody">
-          <Search hideButtons></Search>
+          <Search hideButtons ></Search>
           <div className="searchPage__options">
             <div className="searchPage__optionsLeft">
               <div className="searchPage__option">
@@ -78,7 +78,7 @@ function SearchPage() {
         </p>
         {data?.items.map(item => (
             <div className="searchPage__result">
-                <a href={item.link}>
+                <a href={item.link} className="searchPage__resultShortLink">
                 {item.displayLink} <MoreVertIcon/>
                 </a>
                 <a href={item.link} className="searchPage__resultTitle">

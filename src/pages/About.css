@@ -12,6 +12,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 8px;
+}
+
+.aboutPage__option:hover {
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
 
 .underline {
@@ -24,11 +30,15 @@
     font-size: 20px;
 }
 
+.aboutPage__optionMain > a,
 .aboutPage__option > a {
     text-decoration: none;
     margin: 8px;
     color: #757575;
     font-weight: 500;
+}
+.modal__menu {
+    display: none;
 }
 
 .aboutPage__body {
@@ -79,4 +89,26 @@
     margin: 32px 0;
     line-height: 1.5;
     font-weight: 400;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 900px) {
+    .aboutPage__option {
+        display: none;
+    }
+
+    .modal__menu {
+        display: flex;
+        color: darkgray;
+    }
+
+    .aboutPage__bodyTitle {
+        margin-top: 36px;
+        font-size: 24px;
+    }
+
+    .aboutPage__bodyImageDesc {
+        width: 50%;
+    }
 }

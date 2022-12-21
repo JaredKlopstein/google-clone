@@ -8,6 +8,7 @@ import HelpIcon from "@material-ui/icons/Help";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import { Avatar } from "@material-ui/core";
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight'
+import MenuIcon from '@material-ui/icons/Menu';
 
 
 
@@ -22,6 +23,9 @@ function Store() {
             </div>
             <div className="storePage__headerOptions">
                 <div className="storePage__headerOptionsLeft">
+                <div className="storePage__option modal__menu">
+                <MenuIcon className='no-cursor'></MenuIcon>
+            </div>
                 <Link to="/"><img className="storePage__headerLogo"src={Logo} alt="" /></Link>
                 <div className="storePage__headerOption">
                     <Link className="no-cursor" to="/">Phones</Link>
@@ -49,16 +53,16 @@ function Store() {
                 </div>
                 </div>
                 <div className="storePage__headerOptionsRight">
-                <div className="storePage__headerOption">
+                <div className="storePage__headerOptionRight">
                     <SearchIcon></SearchIcon>
                 </div>
                 <div className="storePage__headerOption">
                     <HelpIcon></HelpIcon>
                 </div>
-                <div className="storePage__headerOption">
+                <div className="storePage__headerOptionRight">
                     <ShoppingCartIcon></ShoppingCartIcon>
                 </div>
-                <div className="storePage__headerOption">
+                <div className="storePage__headerOptionRight">
                     <Avatar></Avatar>
                 </div>
                     

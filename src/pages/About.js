@@ -2,17 +2,22 @@ import React from 'react'
 import "./About.css";
 import { Link } from 'react-router-dom'
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
+import MenuIcon from '@material-ui/icons/Menu';
 
 function About() {
   return (
     <div className="about">
         <div className="about__header">
-            <div className="aboutPage__option">
+        <div className="aboutPage__option modal__menu">
+                <MenuIcon className='no-cursor'></MenuIcon>
+            </div>
+            <div className="aboutPage__optionMain">
                 <Link className="aboutPage__optionMain no-cursor" to="/about">About
                 <img className="aboutPage__optionImage" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="" />
                 <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
                 </Link>
             </div>
+
             <div className="aboutPage__option underline">
                 <Link className="no-cursor" to="/about">About</Link>
             </div>
